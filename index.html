@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<!--
+	hacked from http://slides.html5rocks.com/
+	by ps
+	for Remix Culture In The Demoscene
+	Assembly Summer 2011 presentation
+-->
+<html manifest="cache.appcache">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
+    <title>Remix Culture In The Demoscene</title>
+    <link href="http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono" rel="stylesheet" type="text/css" />
+    <link id="prettify-link" href="src/prettify/prettify.css" rel="stylesheet" disabled />
+    <link href="css/moon.css" class="theme" rel="stylesheet" />
+    <link href="css/sand.css" class="theme" rel="stylesheet" />
+    <link href="css/sea_wave.css" class="theme" rel="stylesheet" />
+    <link href="css/default.css" class="theme" rel="stylesheet" media="screen" />
+  </head>
+  <body>
+    <div class="presentation">
+      <div id="presentation-counter">Loading forever?...</div>
+      <div class="slides">
+
+        <div class="slide" id="landing-slide">
+          <style>
+            #landing-slide p {
+              font-size: 35px;
+            }
+            p#disclaimer-message {
+              font-size: 20px;
+            }
+          </style>
+          <section class="middle">
+            <p>Remix Culture In The Demoscene</p>
+            <h3><a href="http://tpolm.org/~ps">Filipe Cruz (ps / TPOLM)</a></h3>
+          </section>
+          <aside class="note">
+            <section>
+              Welcome! (This field is for presenter notes and commentary.)
+            </section>
+          </aside> 
+        </div>
+
+       <div class="slide" id="introduction">
+          <header><h1>WHOIS...</h1></header>
+          <style>
+            #introduction li {
+              font-size: 26px;
+              line-height: 33px;
+              opacity: 0.85;
+            }
+          </style>
+
+          <section>
+            <ul>
+            <li>MSc Informatics Engineer from Portugal</li>
+            <li>demoscener since 1997</li>
+            <li>assimilated inhabitant of TPOLM</li>
+            <li>soundtrack for fr-055: 828 by farbrausch<br />(public's choice nominee scene.org award)</li>
+			<li>among <a href="http://www.pouet.net/lists.php?which=1">other</a> demos</li>
+            <li>curator Enough Records netlabel</li>
+            <li>former scene.org staff and pouet.net admin</li>
+            <li>...and don't forget to come to inérciaDemoparty2005</li>
+            </ul>
+          </section>
+        </div>
+
+        <div class="slide" id="table-of-contents">
+          <header><h1>Focus...</h1></header>
+          <style>
+            #toc-list > li {
+              font-size: 26px;
+              line-height: 33px;
+              opacity: 0.85;
+            }
+          </style>
+
+          <section>
+            <ul id="toc-list">
+            	<li>Demoscene Origins</li>
+            	<li>Copyright Concearns</li>
+            	<li>Remix Culture</li>
+            	<li>Remix Culture In The Demoscene</li>
+            </ul>
+          </section>
+        </div>
+
+        <div class="slide">
+          <header><h1>Demoscene Origins</h1></header>
+        </div>
+
+        <div class="slide">
+          <header><h1>Demoscene Origins</h1></header>
+          <section>
+          	<p class="center">Crack intros - C64<br /><br /><img src="data/dd-01.png"/><br /><br /><a href="http://www.intros.c64.org/main.php?module=showintro&iid=283">Alleykat crack intro / Dynamic Duo</a></p>
+          </section>
+<!--          <aside class="note">
+            <section>so, as we all know demoscene origins came from pirating games on the c64 and later the atari, amiga and pc
+most of the initial cracktros has ripped sprites or samples from the games
+
+even by other sceners. music ripping in cracktros wasnt that uncommon
+this was usually done by coders who couldnt get proper fonts or original tracks
+sometimes made as a tribute to the quality of the original material
+
+we were pirating games, no one cared much about copyright to begin with
+yet there were some unwritten rules about it
+
+people who watched the cracktros and identified the original material as being rips would
+either think its cool of lame to have ripped material and then comment about it on bbs, or scrollers from other prods
+
+these talks even helped shape the scene, people were recruited or kicked from groups.
+			</section>
+          </aside> -->
+        </div>
+
+        <div class="slide">
+          <header><h1>Demoscene Origins</h1></header>
+          <section>
+          	<p class="center">Crack Intros - Atari<br /><br /><img src="data/15384.jpg"/><br /><br /><a href="http://pouet.net/prod.php?which=15384">Football manager 2 intro / TGC + Blade Runners</a></p>
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Demoscene Origins</h1></header>
+          <section>
+          	<p class="center">Crack Intros - Amiga<br /><br /><img src="data/27575.jpg"/><br /><br /><a href="http://www.pouet.net/prod.php?which=27575">Creatures Cracktro / Melon + Crystal</a></p>
+          </section>
+        </div>
+
+<!--
+        <div class="slide">
+          <header><h1>Demoscene Origins</h1></header>
+          <section>
+          	<p class="center">Game Piracy</p>
+          	<p class="center">Sample/Song Ripping</p>
+          	<p class="center">Image Scanning</p>
+          	<p class="center">Lame vs Cool</p>
+          </section>
+        </div>-->
+
+        <div class="slide">
+          <header><h1>Demoscene Origins</h1></header>
+          <section>
+          	<p class="center">Ripped material<br /><br /><img src="data/11902.gif"/><br /><br /><a href="http://www.pouet.net/prod.php?which=11902">Samantha Fox Slideshow / An Cool</a></p>
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Demoscene Origins</h1></header>
+          <section>
+          	<p class="center">Megademos (cool vs lame)<br /><br /><img src="data/3119.gif"/><br /><br /><a href="http://www.pouet.net/prod.php?which=3119">megademo / Red Sector Inc (Tristar Party 1989)</a></p>
+          </section>
+        </div>
+
+        <div class="slide">
+          <header><h1>Demoscene Origins</h1></header>
+          <section>
+          	<p class="center">Commercial soundtrack<br /><br /><img src="data/26.jpg"/><br /><br /><a href="http://www.pouet.net/prod.php?which=26">State Of Mind / Bomb (2nd @ The Party 98)</a></p>
+          </section>
+        </div>
+
+        <div class="slide">
+          <header><h1>Demoscene Origins</h1></header>
+          <section>
+          	<p class="center">Commercial soundtrack<br /><br /><img src="data/10.gif"/><br /><br /><a href="http://www.pouet.net/prod.php?which=10">VIP 2 Invitation / Popsy Team (1st @ Takeover 2000)</a></p>
+          </section>
+        </div>
+<!-- even on more mature groups in the late nineties ripping was still often used.
+some great productions exist with ripped soundtracks
+(state of mind / bomb, vip2 / popsy team)
+
+but at some point big demoparties started to require mandatory ownership of full copyright permission
+
+saint / halcyon + da jormas (asm 97)
+
+i feel like a computer / melon (asm 2003)
+-->
+
+
+        <div class="slide">
+          <header><h1>Demoscene Origins</h1></header>
+          <section>
+          	<p class="center">disqualified for copyright video usage<br /><br /><img src="data/296.png"/><br /><br /><a href="http://www.pouet.net/prod.php?which=296">Saint / Halcyon + Da Jormas (disqualified @ Assembly 1997)</a></p>
+          </section>
+        </div>
+
+        <div class="slide">
+          <header><h1>Demoscene Origins</h1></header>
+          <section>
+          	<p class="center">disqualified for copyright sound usage<br /><br /><img src="data/10546.gif"/><br /><br /><a href="http://www.pouet.net/prod.php?which=10546">I Feel Like A Computer / Melon Dezign (disqualified @ Assembly 2003)</a></p>
+          </section>
+        </div>
+
+        <div class="slide">
+          <header><h1>Demoscene Origins</h1></header>
+          <section>
+          	<p class="center">couldn't get copyright permission<br /><br /><img src="data/18838.jpg"/><br /><br /><a href="http://www.pouet.net/prod.php?which=18838">Barn / TDA (1st @ inérciaDemoparty2005)</a></p>
+          </section>
+        </div>
+
+<!-- tried getting official copyright permission and getting turned down or ignored
+
+quite frustrating when you got an awesome idea for a cool demo,
+or even worse, you have already made the production.
+
+romhacking scene suffers much from this problem aswell for example.
+
+game mod is another scene who also had to deal with this problem,
+and while some publishers embraced game mod officially as healthy community growth and participation,
+others dennounced it completly.
+
+machinima scene is another example of creative reuse of copyrighted material
+
+going even further, console hacking has same running problem on a different level
+and while there are plenty of open consoles for development
+there are others who go to great lengths to antagonize their users under claims of piracy.-->
+
+        
+        <div class="slide">
+          <header><h1>Copyright Concearns</h1></header>
+        </div>
+
+        <div class="slide">
+          <header><h1>Copyright Concearns</h1></header>
+          <style>
+            #toc-list > li {
+              font-size: 26px;
+              line-height: 33px;
+              opacity: 0.85;
+            }
+          </style>
+          <section>
+          	<h2>Problems</h2>
+            <ul id="toc-list">
+            	<li>Parties Have Financial Legal Pressure</li>
+            	<li>Creators Have Difficulties To Get Permission</li>
+            	<li>Repositories Have To Deal With DMCA Takedown Requests</li>
+            	<li>Fair Use Gray Area</li>
+            </ul>
+          </section>
+        </div>
+
+        <div class="slide">
+          <header><h1>Copyright Concearns</h1></header>
+          <style>
+            #toc-list > li {
+              font-size: 26px;
+              line-height: 33px;
+              opacity: 0.85;
+            }
+          </style>
+          <section>
+          	<h2>Solutions (and downsides)</h2>
+            <ul id="toc-list">
+            	<li>100% Original Material (who defines what is original?!?)</li>
+            	<li>Screw The System (won't get submitted to bigger parties)</li>
+            	<li>P2P and/or Temporary Download (culture gets lost through time)</li>
+            	<li>Creative Commons (still has plenty of limitations)</li>
+            </ul>
+          </section>
+        </div>
+ 
+ <!--
+ romhacking scene suffers much from this problem aswell for example.
+
+game mod is another scene who also had to deal with this problem,
+and while some publishers embraced game mod officially as healthy community growth and participation,
+others dennounced it completly.
+
+machinima scene is another example of creative reuse of copyrighted material
+
+going even further, console hacking has same running problem on a different level
+and while there are plenty of open consoles for development
+there are others who go to great lengths to antagonize their users under claims of piracy.
+-->
+ 
+         <div class="slide">
+          <header><h1>Copyright Concearns</h1></header>
+          <style>
+            #toc-list > li {
+              font-size: 26px;
+              line-height: 33px;
+              opacity: 0.85;
+            }
+          </style>
+          <section>
+          	<p class="center"><img src="data/drawing.png"/></p>
+
+          	<p class="center" style="color: #ffff00">Money</p>
+          	<p class="center" style="color: #00ff00">Content Creators (Free Culture - Lessig)</p>
+          	<p class="center" style="color: #0000ff">Content Creators (GPL - Stallman)</p>
+          	<p class="center" style="color: #ff0000">MAFIAA Lobbies</p>
+          	<p class="center" style="color: #000000">Consumers (Pirate Party)</p>
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Copyright Concearns</h1></header>
+          <style>
+            #toc-list > li {
+              font-size: 26px;
+              line-height: 33px;
+              opacity: 0.85;
+            }
+          </style>
+          <section>
+          	<h2>Other Creative Scenes Afflicted</h2>
+            <ul id="toc-list">
+            	<li>ROM Hacking</li>
+            	<li>Game Mod</li>
+            	<li>Machinima</li>
+            	<li>Console Hacking</li>
+            </ul>
+          </section>
+        </div>
+<!--
+the problem is copyright
+and copyright abuse by the MAFIAA
+
+companies fear piracy
+companies fear that fans re-using content without permission will damage their image 
+
+and this is a very grey area so i wont go very deep into the legalities or moralities of this issue
+since i want to focus this presentation on the creative demoscene side of it
+
+but the point is, some authors strongly agree with it
+and people with strong economic interests lobby for getting everything paid, patented and monitored
+
+and others strongly disagree with it
+and people without strong economic interests lobby for free culture, creative commons and opensource
+free culture - http://freeculture.org/
+neil gaiman - http://www.youtube.com/watch?v=0Qkyt1wXNlI
+
+in the middle are content consumers who raly for copyright reform for other reasons
+-->
+        <div class="slide">
+          <header><h1>Remix Culture</h1></header>
+        </div>
+<!--
+but going back on topic,
+if you followed todays copyright laws of sample clearance,
+paul's boutique by the beastie boys would take a loss of 20 million dollars.
+http://exploremusic.com/music-history/calculating-the-modern-cost-of-making-the-beastie-boys-pauls-boutique/
+
+i'm talking about beastie boys album, not the 64k from The Party btw 
+
+in fact most of the hip hop scene would never have published any albums.
+their whole scene is about repurposing loops and samples.
+
+and when you think about it there is a huge problem for the industry itself
+everything is a remix put it nicely
+http://www.everythingisaremix.info/
+
+humans have a natural tendency to repurpose things to learn and evolve.
+its the reason why most pop hits all have the same chords.
+or most hollywood movies are re-hashed formulas or sequels.
+
+you take from your surroundings and make something new
+
+"a thief copies from one source, an artist copies from several"
+
+so where is the line drawn where something can be repurposed?
+
+legal terms such as "fair use" exist but are often wrongly challenged
+-->
+
+        <div class="slide">
+          <header><h1>Remix Culture</h1></header>
+          <section>
+          	<p class="center"><br /><br /><img src="data/800px-Hip_Hop_Graffiti_Resized.jpg" /></p>
+          </section>
+        </div>
+
+        <div class="slide">
+          <header><h1>Remix Culture</h1></header>
+          <section>
+          	<p class="center"><br /><br /><img src="data/BeastieBoysPaul'sBoutique.jpg" /><br /><br />Paul's Boutique / Beastie Boys (1989)</p>
+          </section>
+        </div>
+
+        <div class="slide">
+          <header><h1>Remix Culture</h1></header>
+          <section>
+          	<p class="center"><br /><br /><img src="data/1262.gif" /><br /><br /><a href="http://www.pouet.net/prod.php?which=1262">Paul's Boutique / Amable (64k - 1st @ MS98)</a></p>
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Remix Culture</h1></header>
+          <section>
+          	<p class="center"><br /><br /><img src="data/BeastieBoysPaul'sBoutique.jpg" /><br /><br />Paul's Boutique / Beastie Boys (1989)<br /><br />(would now take 20 million dollars losses for sample clearance)</p>
+          </section>
+        </div>
+
+        <div class="slide">
+          <header><h1>Remix Culture</h1></header>
+          <section>
+          	<p class="center"><br /><br /><img src="data/GreyAlbum.gif" width="300px" /><br /><br />Grey Album / DJ Danger Mouse (2004)<br /><br />(White Label Released Online)</p>
+          </section>
+        </div> 
+        
+        <div class="slide">
+          <header><h1>Remix Culture</h1></header>
+          <section>
+          	<p class="center"><br /><br /><img src="data/mos_dub_cover_large.jpg" width="300px" /><br /><br />Mos Dub / Max Tannone (2010)<br /><br />(White Label Released Online)</p>
+          </section>
+        </div>      
+
+		<div class="slide">
+          <header><h1>Remix Culture</h1></header>
+          <style>
+            #toc-list > li {
+              font-size: 26px;
+              line-height: 33px;
+              opacity: 0.85;
+            }
+          </style>
+          <section>
+            <h2>What the MAFIAA doesnt know</h2>
+			<ul id="toc-list">
+				<li>"Good Artists Borrow, Great Artists Steal"<br /> -- Pablo Picasso</li>
+				<li>"Copy from one, it’s plagiarism; copy from two, it’s research."<br /> -- William Mizner</li>
+			</ul>
+          </section>
+        </div>
+        
+		<div class="slide">
+          <header><h1>Remix Culture</h1></header>
+          <style>
+            #toc-list > li {
+              font-size: 26px;
+              line-height: 33px;
+              opacity: 0.85;
+            }
+          </style>
+          <section>
+            <h2>Links</h2>
+			<ul id="toc-list">
+				<li><a href="http://remix.lessig.org/">Remix / Lawrence Lessig</a></li>
+				<li><a href="http://www.everythingisaremix.info/">Everything is a Remix / Kerby Ferguson</a></li>
+			</ul>
+          </section>
+        </div>
+ 
+ 		<div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center">remix != reappropriate<br /><br /><img src="data/29233.png"/><br /><br /><a href="http://www.pouet.net/prod.php?which=29233">Timbalame / Chronic</a></p>
+          </section>
+        </div>
+<!-- 
+im not saying we should all do like our buddy timbaland and just claim someone elses track is your own.
+
+attribution is a very good moral principal to follow.
+
+but when projects like this chiptune cover tribute album of miles davis work
+tries to get everything legit and gets screwed over by legalese
+http://waxy.org/2011/06/kind_of_screwed/
+
+-->       
+        
+        <div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center">remix can be tribute<br /><br /><img src="data/kind_of_bloop_comparison-20100701-172352.jpg"/><br /><br /><a href="http://waxy.org/2011/06/kind_of_screwed/">Kind Of Bloop</a></p>
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center">hip hop influences<br /><br /><img src="data/74.gif" />
+          	<br /><br /><a href="http://pouet.net/prod.php?which=74">Inside / CNCD</a></p>
+          </section>
+        </div>
+ 
+         <div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center">remixing for kicks<br /><br /><img src="data/1583.jpg" />
+          	<br /><br /><a href="http://pouet.net/prod.php?which=1583">Outside / Melon Dezign</a></p>
+          </section>
+        </div>
+  
+        <div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center">remixing pop culture<br /><br /><img src="data/309.jpg" />
+          	<br /><br /><a href="http://pouet.net/prod.php?which=309">Hyperventilation / Byterapers</a></p>
+          </section>
+        </div>
+
+        <div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center">remixing niche culture<br /><br /><img src="data/9492.jpg" />
+          	<br /><br /><a href="http://pouet.net/prod.php?which=9492">fr-minus-06: ghettorocker / farbrausch</a></p>
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center">remixing for greater justice<br /><br /><img src="data/15057.jpg" />
+          	<br /><br /><a href="http://pouet.net/prod.php?which=15057">vanilla rocker / mfx</a></p>
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center">about ripping<br /><br /><img src="data/306.gif" />
+          	<br /><br /><a href="http://pouet.net/prod.php?which=306">Riprap / Exceed</a></p>
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center">remixing WTF<br /><br /><img src="data/12030.jpg" />
+          	<br /><br /><a href="http://pouet.net/prod.php?which=12030">Panjabmoore meets 007 again / Calodox</a></p>
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center">remixing as a joke remake<br /><br /><img src="data/24761.png" />
+          	<br /><br /><a href="http://pouet.net/prod.php?which=24761">Second Reality / "Future Crew"</a></p>
+          </section>
+        </div>
+
+      	<div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center">remixing for a musicdisk<br /><br /><img src="data/20435.jpg" />
+          	<br /><br /><a href="http://pouet.net/prod.php?which=20435">Variform Remixed / Kewlers</a></p>
+          </section>
+        </div>
+        
+      	<div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center">remixing for pirated demo compo (tum)<br /><br /><img src="data/21219.jpg" />
+          	<br /><br /><a href="http://pouet.net/prod.php?which=21219">Marijform / Nuance</a></p>
+          </section>
+        </div>       
+              
+        <div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center">remixing for pirate compos (inércia)<br /><br /><img src="data/26623.jpg" />
+          	<br /><br /><a href="http://pouet.net/prod.php?which=26623">1337 / GlenZ</a></p>
+          </section>
+        </div>
+    <!-- 
+without hip hop we would have never had demos like outside / melon mocking inside / CNCD
+
+and demos taking material from famous songs (hyperventilation / byterapers, riprap / exceed, panjabmoore)
+
+parody remix demos have existed since ages. (second reality)
+
+even pirated demo competitions have been held at some demoparties. (tum, glenz)
+http://www.pouet.net/prod.php?which=26623
+
+one of the older rules in the demoscene has been that you should do whatever you wanted.
+after all demoscene is a hobby, not a job, so rules should stay at the office
+and demos should be about whatever the maker wants them to be about
+
+-->
+
+        <div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center">remixing to fill compo<br /><br /><img src="data/25655.gif" />
+          	<br /><br /><a href="http://pouet.net/prod.php?which=25655">Honda Gay / FXM ^ GlenZ ^ Jumalauta</a></p>
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center">remixing to experiment<br /><br /><img src="data/18625.jpg" />
+          	<br /><br /><a href="http://pouet.net/prod.php?which=18625">A Deepness In The Sky - Dark & Long Remix / FXM</a></p>
+          </section>
+        </div>
+ 
+<!--
+and yes i made a demo about it
+http://www.pouet.net/prod.php?which=18625
+
+more than one actually
+http://www.pouet.net/groups.php?which=4754
+
+and so did others
+-->
+
+        <div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center">remixing to retork<br /><br /><img src="data/18773.jpg" />
+          	<br /><br /><a href="http://pouet.net/prod.php?which=18773">A Deepness In The Sky - Knight Rider Edit / Pimp Ninja</a></p>
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center">remixing a remix icon<br /><br /><img src="data/28500.jpg" />
+          	<br /><br /><a href="http://pouet.net/prod.php?which=28500">The Ultimate Funk Experience In The Sky / Nuance</a></p>
+          </section>
+        </div>
+
+        
+        <div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center">first remix demo?<br /><br /><img src="data/2597.jpg" />
+          	<br /><br /><a href="http://pouet.net/prod.php?which=2597">Deep - the Psilocybin Mix / CNCD & Parallax</a></p>
+          </section>
+        </div>
+       
+       <div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center">first remix intro?<br /><br /><img src="data/53227.png" />
+          	<br /><br /><a href="http://pouet.net/prod.php?which=53227">2nd hallucination / Stellar</a></p>
+          </section>
+        </div>        
+        
+        <div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center">haujobb vs mfx - proxy 2001<br /><br /><img src="data/2856.jpg" />
+          	<br /><br /><a href="http://pouet.net/prod.php?which=2856">Kosmiset Avaruus Sienet / Haujobb</a></p>
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center">haujobb vs mfx - proxy 2001<br /><br /><img src="data/2858.gif" />
+          	<br /><br /><a href="http://pouet.net/prod.php?which=2858">oldskool trippin midskool nosejob -edit / mfx & Haujobb</a></p>
+          </section>
+        </div>
+ 
+         <div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center"><br /><br /><img src="data/4243.jpg" />
+          	<br /><br /><a href="http://pouet.net/prod.php?which=4243">mother, mother my eyes hurt / Haujobb</a></p>
+          </section>
+        </div>
+ 
+        <div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center"><br /><br /><img src="data/7148.jpg" />
+          	<br /><br /><a href="http://pouet.net/prod.php?which=7148">mother, mother my ears bleed / mfx</a></p>
+          </section>
+        </div>
+
+        <div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center"><br /><br /><img src="data/8923.jpg" />
+          	<br /><br /><a href="http://pouet.net/prod.php?which=8923">mother mother, arcane won't sleep with me / Odd </a></p>
+          </section>
+        </div>
+ 
+         <div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center">most remixed demo<br /><br /><img src="data/10663.jpg" />
+          	<br /><br /><a href="http://pouet.net/prod.php?which=10663">Elg / Odd </a></p>
+          </section>
+        </div>
+        
+<!--
+althought i didnt invent the concept of demo remixing.
+i'll have to credit haujobb and mfx for that (as far as i know atleast)
+http://www.pouet.net/search.php?what=mother+mother&type=prod&x=9&y=16
+
+and yes, it is a very touchy area, im not saying you should steal farbrausch demo and submit it as your own
+
+although some folks manage to pull it off nicely with just a few edits here and there
+http://pouet.net/prod.php?which=15057
+
+my recommended golden rule to avoid flames is to just attribute on the infofile everything that you didnt do yourself
+
+and maybe make the effort to contact some folks to get original, possibly more fitting, material whenever you're just repurposing something
+what i mean is: it's ok to do tributes and remixes, but FFS dont do it just because you're lazy to get something better
+
+especially not in a scene where you're surrounded by creative people.
+
+we all know how hard it is to find the perfect music, or an active graphics artist, or even a coder with free time for your project
+but you need to try first.
+
+one example is a demo by ASD called size antimatters
+http://www.pouet.net/prod.php?which=51078
+
+i disliked the soundtrack they used on the demo. i thought it didnt really fit, that the visuals deserved something else,
+and so i created made an open compo call for remixes.
+
+there were a few people interested in doing something about it
+but in the end we only got an entry by valmet children
+http://www.pouet.net/prod.php?which=54921
+-->
+
+        <div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center">call for remixes<br /><br /><img src="data/54921.jpg" />
+          	<br /><br /><a href="http://pouet.net/prod.php?which=54921">size antimatters (valmet children dark ambient mix) / valmet children</a></p>
+          </section>
+        </div>
+
+        <div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center">ASD goes commercial remix<br /><br /><img src="data/56100.jpg" />
+          	<br /><br /><a href="http://pouet.net/prod.php?which=56100">Electric Bullet / ASD ^ Excess</a></p>
+          </section>
+        </div>
+
+        <div class="slide">
+          <header><h1>Remix Culture In The Demoscene</h1></header>
+          <section>
+          	<p class="center">ASD goes experimental remix<br /><br /><img src="data/55990.png" />
+          	<br /><br /><a href="http://pouet.net/prod.php?which=55990">Anoxia Redux / ASD ^ minimalartifact</a></p>
+          </section>
+        </div>
+        
+<!--
+the news of the compo however seemed to spark an old idea in Navis's head of doing some remixes of his demos of his own.
+one of them was using a soundtrack of mine that i had originally used on a minimalartifact demo.
+his base material was Happiness is Around the Bend, last years Assembly winner demo.
+http://www.pouet.net/prod.php?which=55990
+
+i didn't even see the demo before it was release. so all credit goes to ASD guys.
+
+and that's the demo that i'm finishing this presentation with.
+
+-->
+    
+      </div> <!-- slides -->
+      <style>
+      #speaker-note {
+        position:absolute;
+        left: 0;
+        top: 80%;
+        width: 100%;
+        height: 20%;
+        z-index: 50;
+        opacity: 0.75;
+        background-color: white;
+        overflow: auto;
+        padding: 2px 20px;
+        -webkit-transition: top 0.5s ease-in-out;
+        -moz-transition: top 0.5s ease-in-out;
+        -o-transition: top 0.5s ease-in-out;
+        transition: top 0.5s ease-in-out;
+      }
+      #speaker-note.invisible {
+        top: 101%;
+      }
+      </style>
+      <div id="speaker-note" class="invisible" style="display: none;">
+      </div> <!-- speaker note -->
+    </div> <!-- presentation -->
+
+    <script src="js/utils.js?20110607"></script>
+    
+  </body>
+
+</html>
